@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/hero/</loc>
+      <loc>/old_home/hero/</loc>
       <lastmod>2017-10-15T00:00:00-04:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/publications_selected/</loc>
+      <loc>/old_home/publications_selected/</loc>
       <lastmod>2016-04-20T00:00:00-04:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/publications/</loc>
+      <loc>/old_home/publications/</loc>
       <lastmod>2016-04-20T00:00:00-04:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/talks/</loc>
+      <loc>/old_home/talks/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/posts/</loc>
+      <loc>/old_home/posts/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/teaching/</loc>
+      <loc>/old_home/teaching/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -265,6 +265,16 @@
     
       <loc>/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/old_home/</loc>
+      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
