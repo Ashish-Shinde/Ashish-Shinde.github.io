@@ -114,10 +114,10 @@
     
     <item>
       <title>Firmware/Embedded Systems Projects</title>
-      <link>/project/example-external-project/</link>
+      <link>/project/firmware/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/example-external-project/</guid>
+      <guid>/project/firmware/</guid>
       <description>
 
 &lt;h3 id=&#34;portable-braille-reader&#34;&gt;Portable Braille Reader&lt;/h3&gt;
@@ -167,22 +167,35 @@ pus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellu
     
     <item>
       <title>RTL Design, Verification, ASIC Design Projects</title>
-      <link>/project/deep-learning/</link>
+      <link>/project/hardware/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/deep-learning/</guid>
+      <guid>/project/hardware/</guid>
       <description>
 
-&lt;h3 id=&#34;first-project&#34;&gt;First Project&lt;/h3&gt;
+&lt;h3 id=&#34;sorting-accelerator&#34;&gt;Sorting Accelerator&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/bubbles.jpg&#34; alt=&#34;alternative text for search engines&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/accel5.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
+ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
-&lt;p&gt;ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.\&lt;/p&gt;
+&lt;h3 id=&#34;sv-test-bench&#34;&gt;SV Test Bench&lt;/h3&gt;
 
-&lt;h3 id=&#34;second-project&#34;&gt;Second Project&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/img/bus1.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
+ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=9dF-Sq_3M-El&#34; target=&#34;_blank&#34;&gt;I&amp;rsquo;m a link&lt;/a&gt;
+&lt;h3 id=&#34;pipelined-processor&#34;&gt;Pipelined Processor&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/proc1.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
+ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
+
+&lt;h3 id=&#34;superscalar-processor&#34;&gt;Superscalar Processor&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/super3.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
+ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
+
+&lt;h3 id=&#34;blocking-cache&#34;&gt;Blocking Cache&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/cache1.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
 ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
 </description>
     </item>
