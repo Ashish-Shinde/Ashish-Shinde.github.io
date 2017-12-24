@@ -127,51 +127,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/deep-learning/</guid>
-      <description>
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;+++&lt;/p&gt;
-
-&lt;h1 id=&#34;date-this-page-was-created&#34;&gt;Date this page was created.&lt;/h1&gt;
-
-&lt;p&gt;date = &amp;ldquo;2016-04-27&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;project-title&#34;&gt;Project title.&lt;/h1&gt;
-
-&lt;p&gt;title = &amp;ldquo;RTL Design, Verification, ASIC Design Projects&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;project-summary-to-display-on-homepage&#34;&gt;Project summary to display on homepage.&lt;/h1&gt;
-
-&lt;p&gt;summary = &amp;ldquo;&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;optional-image-to-display-on-homepage-relative-to-static-img-folder&#34;&gt;Optional image to display on homepage (relative to &lt;code&gt;static/img/&lt;/code&gt; folder).&lt;/h1&gt;
-
-&lt;p&gt;image_preview = &amp;ldquo;bubbles.jpg&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;tags-can-be-used-for-filtering-projects&#34;&gt;Tags: can be used for filtering projects.&lt;/h1&gt;
-
-&lt;h1 id=&#34;example-tags-machine-learning-deep-learning&#34;&gt;Example: &lt;code&gt;tags = [&amp;quot;machine-learning&amp;quot;, &amp;quot;deep-learning&amp;quot;]&lt;/code&gt;&lt;/h1&gt;
-
-&lt;p&gt;tags = [&amp;ldquo;deep-learning&amp;rdquo;]&lt;/p&gt;
-
-&lt;h1 id=&#34;optional-external-url-for-project-replaces-project-detail-page&#34;&gt;Optional external URL for project (replaces project detail page).&lt;/h1&gt;
-
-&lt;p&gt;external_link = &amp;ldquo;&amp;rdquo;&lt;/p&gt;
-
-&lt;h1 id=&#34;does-the-project-detail-page-use-math-formatting&#34;&gt;Does the project detail page use math formatting?&lt;/h1&gt;
-
-&lt;p&gt;math = false&lt;/p&gt;
-
-&lt;h1 id=&#34;optional-featured-image-relative-to-static-img-folder&#34;&gt;Optional featured image (relative to &lt;code&gt;static/img/&lt;/code&gt; folder).&lt;/h1&gt;
-
-&lt;p&gt;[header]
-image = &amp;ldquo;headers/bubbles.jpg&amp;rdquo;
-#caption = &amp;ldquo;My caption 😄&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;+++&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 </description>
     </item>
     
