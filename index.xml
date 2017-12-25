@@ -176,27 +176,180 @@ pus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellu
 &lt;h3 id=&#34;sorting-accelerator&#34;&gt;Sorting Accelerator&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/accel5.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
-ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+Designed a sorting accelerator to sort an array of integers of unknown lenght. The baseline design consisted a quick-sort benchmark running on a CPU. The alternative design consisted a processor and an accelerator sharing a data cache through an arbiter while the processor also has a private instruction cache. The accelerator can have up to 32 special resisters to implement the Proc-Accel protocol. These registers are manily used to store the information such as source and destination array pointers, their sizes and some FSM control bits. The accelerator was implemented using a 8-element/4-element bitonic sorting network to sort two/one cache-lines at a time and these sorted elements were later merged on the CPU.&lt;/p&gt;
+
+&lt;p&gt;The ASIC toolflow was implemeted using Synopsy DC, ICC and PT to compare the area, energy and cycle time of the baseline and alternative accelerator design. The diagram above shows the amoeba plot of the accelerator. The results are summarized in the table below:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Baseline&lt;/th&gt;
+&lt;th&gt;4-Element Sorter&lt;/th&gt;
+&lt;th&gt;8-Element Sorter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Area(um^2)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;964372&lt;/td&gt;
+&lt;td&gt;965894&lt;/td&gt;
+&lt;td&gt;1118146&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Constraint(ns)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Slack(ns)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;-0.14&lt;/td&gt;
+&lt;td&gt;-0.20&lt;/td&gt;
+&lt;td&gt;-0.34&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Exec. Time(cycles)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;16853&lt;/td&gt;
+&lt;td&gt;18682&lt;/td&gt;
+&lt;td&gt;13299&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Power(mW)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;82.2&lt;/td&gt;
+&lt;td&gt;77.4&lt;/td&gt;
+&lt;td&gt;85.8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Energy(nJ)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;3446.56&lt;/td&gt;
+&lt;td&gt;3543.62&lt;/td&gt;
+&lt;td&gt;3627.87&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&#34;sv-test-bench&#34;&gt;SV Test Bench&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/bus1.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
-ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
+Designed a layered system verilog test bench for the 4x4 on-chip bus network shown in the figure above. Implemented the environment, driver, receiver, coverage and scoreboard classes. The scoreboard receives and compares the transaction from driver and receiver using the mailboxes. The scoreboard class also instantiates the coverage class which implements cover points and cover groups to check the functional coverage. More test cases (direct and random) can be added to the testcase class to achieve high functional coverage.&lt;/p&gt;
 
 &lt;h3 id=&#34;pipelined-processor&#34;&gt;Pipelined Processor&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/proc1.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
-ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
+The baseline design consisted a five stage pipelined processor for TinyRV2 ISA as shown in the figure above. To resolve the data dependencies such as read-after-write (RAW), the processor implements stalling in decode (D) stage of the pipeline. For control hazards, we use simple branch prediction scheme where we assume the branch is not taken and squash the pipeline when the branch is actually taken. The alternative design implements hardware bypassing instead of stalling to improve the CPI.&lt;/p&gt;
+
+&lt;p&gt;The CPI results for various benchmarks are summarized below:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Benchmark&lt;/th&gt;
+&lt;th&gt;Baseline&lt;/th&gt;
+&lt;th&gt;Alternative&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;vvadd-unpot&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;2.22&lt;/td&gt;
+&lt;td&gt;1.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;vvadd-opt&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;1.11&lt;/td&gt;
+&lt;td&gt;1.11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cmult&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;2.65&lt;/td&gt;
+&lt;td&gt;2.53&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;bsearch&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;2.97&lt;/td&gt;
+&lt;td&gt;1.39&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cmult&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;3.99&lt;/td&gt;
+&lt;td&gt;2.15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&#34;superscalar-processor&#34;&gt;Superscalar Processor&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/super3.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
-ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
+We attempted to design a dual-issue, in-order, stalling pipelined superscalar processor. The ASIC toolflow was used to compare the area, energy and cycle time of the superscalar processor with the single-issue, stalling pipelined processor. The superscalar processor can fetch, decode and execute two independent instructions at a time. The instructions such as ADD, ADDI can be issued in both the pipes, while the instructions such as LW, MUL can be issued only in the second pipe. Therefore, the instructions are swizzeled in the decode (D) stage before issuing them to the appropriate pipe. The processor uses stalling for inter and intra fetch-block data dependencies.&lt;/p&gt;
+
+&lt;p&gt;The superscalar processor improves the CPI for various benchmarks by 12% to 48%. The power, energy, execution time comparision for one of the benchmarks is as follows:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Single-issue&lt;/th&gt;
+&lt;th&gt;Dual-issue&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Area(um^2)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;93531&lt;/td&gt;
+&lt;td&gt;157805&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Constraint(ns)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Slack(ns)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;-0.01&lt;/td&gt;
+&lt;td&gt;-0.06&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Exec. Time(cycles)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;558&lt;/td&gt;
+&lt;td&gt;327&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Power(mW)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;7.8&lt;/td&gt;
+&lt;td&gt;12.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Energy(nJ)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;8.8&lt;/td&gt;
+&lt;td&gt;8.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&#34;blocking-cache&#34;&gt;Blocking Cache&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/cache1.PNG&#34; alt=&#34;alternative text for search engines&#34; /&gt;
-ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida&lt;/p&gt;
+The baseline design consisted a direct-mapped, write-back cache. The datapath of this baseline design is shown above while the control path included a FSM. The cache has 16 four-word (16 bytes) cache lines with a total capacity of 256 bytes. Each cache line also has a corresponding valid bit and dirty bit (for write-back cache) in the control unit. The alternative design attempts to reduce the miss rate (specificaaly conflit misses) by implementing a 2-way set associative cache. The alternative design has same capacity and uses LRU replacement policy for cache line eviction.&lt;/p&gt;
+
+&lt;p&gt;We wrote various benchmarks to compare the performance of both the deisgns for addresses with different spatial and temporal locality. Generally, the miss rate is comparable for benchmarks with high temporal and spatial locality. But for the benchmark such as pointer-chase or non-unit strides which has low temporal and spatail locality, the alternative design has lower miss rate due to reduced conflict misses. In some cases due to higher capacity misses, the baseline has lower miss rate than the alternative design.&lt;/p&gt;
 </description>
     </item>
     
