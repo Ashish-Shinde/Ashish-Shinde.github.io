@@ -76,7 +76,7 @@
   
   <meta property="og:site_name" content="ASHISH H SHINDE">
   <meta property="og:url" content="/project/firmware/">
-  <meta property="og:title" content="Firmware/Embedded Systems Projects | ASHISH H SHINDE">
+  <meta property="og:title" content="FPGA, Firmware/Embedded Systems Projects | ASHISH H SHINDE">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
@@ -87,7 +87,7 @@
 
   
 
-  <title>Firmware/Embedded Systems Projects | ASHISH H SHINDE</title>
+  <title>FPGA, Firmware/Embedded Systems Projects | ASHISH H SHINDE</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -185,7 +185,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Firmware/Embedded Systems Projects</h1>
+      <h1 itemprop="name">FPGA, Firmware/Embedded Systems Projects</h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -193,7 +193,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Firmware%2fEmbedded%20Systems%20Projects&amp;url=%2fproject%2ffirmware%2f"
+         href="https://twitter.com/intent/tweet?text=FPGA%2c%20Firmware%2fEmbedded%20Systems%20Projects&amp;url=%2fproject%2ffirmware%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
@@ -207,21 +207,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2ffirmware%2f&amp;title=Firmware%2fEmbedded%20Systems%20Projects"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2ffirmware%2f&amp;title=FPGA%2c%20Firmware%2fEmbedded%20Systems%20Projects"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fproject%2ffirmware%2f&amp;title=Firmware%2fEmbedded%20Systems%20Projects"
+         href="http://service.weibo.com/share/share.php?url=%2fproject%2ffirmware%2f&amp;title=FPGA%2c%20Firmware%2fEmbedded%20Systems%20Projects"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Firmware%2fEmbedded%20Systems%20Projects&amp;body=%2fproject%2ffirmware%2f">
+         href="mailto:?subject=FPGA%2c%20Firmware%2fEmbedded%20Systems%20Projects&amp;body=%2fproject%2ffirmware%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -236,6 +236,13 @@
 
     <div class="article-style" itemprop="articleBody">
       
+
+<h3 id="hardware-ode-solver">Hardware ODE Solver</h3>
+
+<p><img src="/img/dda_solver.png" alt="alternative text for search engines" />
+Simulated a coupled spring-mass system using DE1-SoC board. We use DDA (Digital Differential Analyzer) solver to find the positions of two particles attached to the spring and plot them on the VGA. The DDA solver is implemented in FPGA fabric using integrators, signed multipliers and adders. All the computations are done in fixed-point.</p>
+
+<p>The overall system is shown above. The HPS gets the initial conditions such as spring constants from the UART and writes them to the memory mapped PIO port. The DDA solver reads these values and starts computing particle positions. We write an EBAB bus master that writes these positions values to the pixel buffer of VGA subsystem.</p>
 
 <h3 id="portable-braille-reader">Portable Braille Reader</h3>
 
